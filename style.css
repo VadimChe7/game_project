@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap");
+
+@import "./reset.css";
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", sans-serif;
+  color: #000;
+  background-color: #000000;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 40px 100px;
+  color: aliceblue;
+}
+
+.block {
+  margin: 0;
+  align-items: center;
+}
+
+.game__btn {
+  color: aliceblue;
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 22px;
+  background-color: #4e4c4c;
+  transition: all 0.2s ease-in-out;
+}
+
+.game__btn:hover {
+  background-color: #ffdc18;
+  color: rgb(0, 0, 0);
+  transition: all 0.2s ease-in;
+}
+
+.time {
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#title {
+  /* display: inline-block; */
+  /* margin-left: 100px; */
+  /* width: calc(100% - 540px); */
+  font-size: xx-large;
+}
+#timer {
+  width: 200px;
+  /* display: inline-block; */
+  font-size: xx-large;
+}
+#header button {
+  font-size: xx-large;
+  /* display: inline-block; */
+}
+
+.section__cards {
+    height: 80vh;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.back {
+  background-image: url("media/back.png");
+}
+div.front.p {
+  background-image: url("media/p.png");
+}
+div.front.z {
+  background-image: url("media/z.png");
+}
+div.front.j {
+  background-image: url("media/j.png");
+}
+div.front.h {
+  background-image: url("media/h.png");
+}
+div.front.s {
+  background-image: url("media/s.png");
+}
+.card {
+  width: 150px;
+  height: 200px;
+  border-radius: 5%;
+  border: 1px solid yellow;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0px 0px 20px rgb(255, 220, 20);
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-15px);
+}
+
+.footer {
+  margin: 0 auto;
+  padding-bottom: 197px;
+  background-color: #444141;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: center;
+  transform: translateY(100%);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.info__title {
+  padding-bottom: 15px;
+}
